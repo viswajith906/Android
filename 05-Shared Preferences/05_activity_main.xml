@@ -12,13 +12,13 @@
         android:layout_height="65dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="150dp"
-        android:background="@color/purple_700"
-        android:text="MES COLLEGE OF ENGINEERING"
-        android:gravity="center"
-        android:textColor="@color/white"
-        android:textSize="23dp"
-        android:textStyle="bold"/>
 
+        android:backgroundTint="#F65D0606"
+        android:gravity="center"
+        android:text="MES COLLEGE OF ENGINEERING"
+        android:textColor="#891717"
+        android:textSize="23dp"
+        android:textStyle="bold" />
     <EditText
         android:id="@+id/username"
         android:layout_width="375dp"
@@ -28,7 +28,6 @@
         android:hint="User Name"
         android:textSize="20dp"
         />
-
     <EditText
         android:id="@+id/mobile"
         android:layout_width="375dp"
@@ -38,9 +37,8 @@
         android:hint="Mobile Number"
         android:textSize="20dp"
         />
-
     <EditText
-        android:id="@+id/Email"
+        android:id="@+id/email"
         android:layout_width="375dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/mobile"
@@ -48,17 +46,15 @@
         android:hint="Email Address"
         android:textSize="20dp"
         />
-
     <EditText
         android:id="@+id/password"
         android:layout_width="375dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/Email"
+        android:layout_below="@+id/email"
         android:layout_marginTop="21dp"
         android:hint="Enter Password"
         android:textSize="20dp"
         />
-
     <EditText
         android:id="@+id/repass"
         android:layout_width="375dp"
@@ -67,7 +63,6 @@
         android:layout_marginTop="34dp"
         android:hint="Retype Password"
         android:textSize="20dp"/>
-
     <Button
         android:id="@+id/submit"
         android:layout_width="143dp"
@@ -77,5 +72,4 @@
         android:layout_marginTop="51dp"
         android:text="Submit"
         android:textSize="15dp" />
-
 </RelativeLayout>
