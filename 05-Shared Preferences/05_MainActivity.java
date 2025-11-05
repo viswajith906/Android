@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         usernameEt=(EditText)  findViewById(R.id.username);
         mobileEt=(EditText)  findViewById(R.id.mobile);
-        emailEt=(EditText) findViewById(R.id.Email);
+        emailEt=(EditText) findViewById(R.id.email);
         pass1Et=(EditText) findViewById(R.id.password);
         pass2Et=(EditText) findViewById(R.id.repass);
         submitBtn=(Button) findViewById(R.id.submit);
@@ -69,4 +69,5 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+}
 }
